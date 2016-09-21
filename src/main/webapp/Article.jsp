@@ -19,6 +19,9 @@
 	<h1>Article</h1>
 	<hr>
 
+	<a href="./HR.jsp" target= "_blank">HR로 가기</a>
+	<hr>
+	
 	<table style="width: 100%; border-collapse: collapse; border: 1px dashed #000000; background-color: #2E8B57;">
 		<tr style="height: 50px;">
 			<th>ARTICLE_ID</th>

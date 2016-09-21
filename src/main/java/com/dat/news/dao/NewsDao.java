@@ -64,5 +64,7 @@ public interface NewsDao{
 	 */
 	public void deleteNews(int newsId);
 	
+	public List<CategoryVO> getCategories();
+	
 
 }

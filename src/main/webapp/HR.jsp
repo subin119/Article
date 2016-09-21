@@ -14,10 +14,16 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>EMPLOYEES</title>
 </head>
 <body>
 	<h1>EMPLOYEES</h1>
+	<hr>
+	<a href="http://www.naver.com">NAVER</a>,
+	<a href="http://www.daum.net">DAUM</a>,
+	<a href="http://www.google.com" target="_blank">GOOGLE</a>
+	
+	<a href="./index.jsp?name=sbHwang" target="_blank">INDEX</a>
 	<hr>
 	
 	<table style = "width:100%; border-collapse: collapse; border: 1px solid #000000; background-color: #CCCCCC;">
@@ -54,19 +60,6 @@
 			<td><%= employee.getDepartmentId() %></td>
 		</tr>
 <% } %>
-		<tr>
-			<td>101</td>
-			<td>Neena</td>
-			<td>Kochhar</td>
-			<td>NKOCHHAR</td>
-			<td>515.123.4568</td>
-			<td>2005/09/21</td>
-			<td>AD_VIP</td>
-			<td>17000</td>
-			<td></td>
-			<td>100</td>
-			<td>90</td>
-		</tr>		
 	</table>
 </body>
 </html>
