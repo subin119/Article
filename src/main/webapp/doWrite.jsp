@@ -19,14 +19,12 @@
 	if(journalistIdParam == null) {
 		journalistIdParam = "1";	
 	}
-	
 	int journalistId = Integer.parseInt(journalistIdParam);
 	
 	String categoryIdParam = request.getParameter("categoryId");
 	if(categoryIdParam == null) {
 		categoryIdParam = "1";
 	}
-	
 	int categoryId = Integer.parseInt(categoryIdParam);
 	
 	NewsVO newsVO = new NewsVO();

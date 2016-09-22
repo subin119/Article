@@ -6,6 +6,13 @@ public class ArticleVO {
 	private String subject;
 	private String contents;
 	private String created_Date;
+	private int categoryId;
+	
+	private CategoryVO categoryVO;
+	
+	public ArticleVO() {
+		categoryVO = new CategoryVO();
+	}
 	
 	public int getArticle_Id() {
 		return article_Id;
@@ -31,7 +38,22 @@ public class ArticleVO {
 	public void setCreated_Date(String created_Date) {
 		this.created_Date = created_Date;
 	}
-	
-	
 
+	public CategoryVO getCategoryVO() {
+		return categoryVO;
+	}
+
+	public void setCategoryVO(CategoryVO categoryVO) {
+		this.categoryVO = categoryVO;
+	}
+
+	public int getCategoryId() {
+		return categoryId;
+	}
+
+	public void setCategoryId(int categoryId) {
+		this.categoryId = categoryId;
+	}
+	
+	
 }

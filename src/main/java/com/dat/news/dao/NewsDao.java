@@ -64,6 +64,11 @@ public interface NewsDao{
 	 */
 	public void deleteNews(int newsId);
 	
+	
+	/**
+	 * 모든 카테고리 가져오기
+	 * @return
+	 */
 	public List<CategoryVO> getCategories();
 	
 

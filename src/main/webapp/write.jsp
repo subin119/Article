@@ -7,8 +7,10 @@
     pageEncoding="UTF-8"%>
 <%
 	NewsDao newsDao = new NewsDaoImpl();
+	//모든 기자 가져오기
 	List<JournalistVO> journalists = newsDao.getJournalists();
 	
+	//모든 카테고리 가져오기
 	List<CategoryVO> categories = newsDao.getCategories();
 %>    
 <!DOCTYPE html>
